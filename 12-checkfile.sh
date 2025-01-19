@@ -1,6 +1,8 @@
 #!/bin/bash
-if test -f /Users/osagiefe.LAB/Desktop/CLOUD-PROJECT/bash_scripting/file4.txt; then
-  echo "File exists."
+DIR="c/Users/osagiefe.LAB/Desktop/CLOUD-PROJECT/bash_scripting/"
+if [ -d "$DIR" ]; then
+   echo "Directory exists."
+
 else
-  echo "File does not exists."
+   echo "Directory does not exists."
 fi

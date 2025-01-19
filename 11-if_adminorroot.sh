@@ -8,7 +8,7 @@ admin="felix"
 
 read -p "Enter your username? " username
 
-# Check if th# Check if the username provided is the admin
+# Check if the username provided is the admin
 
 if [[ "${username}" != "${admin}" ]] && [[ $EUID != 0 ]] ; then
     echo "You are not the admin or root user, but please be safe!"

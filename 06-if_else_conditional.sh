@@ -9,7 +9,7 @@ read -p "What is your position? " position
 
 if [[ -z ${position} ]]
 then
-    echo "Please enter position!"
+    echo "Please enter your position!"
 else
-    echo "Hi there ${position}"
+    echo "Hi dear ${position}"
 fi
